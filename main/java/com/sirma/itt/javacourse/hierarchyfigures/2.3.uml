@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_w64IwOs6EeOa76z6hPAxMQ" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_xqV20Os6EeOa76z6hPAxMQ" name="Point">
+    <generalization xmi:type="uml:Generalization" xmi:id="_uzjUwPFtEeOkMo7hymi2aw" general="_OJW1IOs7EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3rKJwOs6EeOa76z6hPAxMQ" name="Segment">
+    <generalization xmi:type="uml:Generalization" xmi:id="_v4rw0PFtEeOkMo7hymi2aw" general="_xqV20Os6EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8QeIAOs6EeOa76z6hPAxMQ" name="Arc">
+    <generalization xmi:type="uml:Generalization" xmi:id="_y8vXsPFtEeOkMo7hymi2aw" general="_xqV20Os6EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9iyEcOs6EeOa76z6hPAxMQ" name="Poly Line">
+    <generalization xmi:type="uml:Generalization" xmi:id="_w22pQPFtEeOkMo7hymi2aw" general="_3rKJwOs6EeOa76z6hPAxMQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_xzScUPFtEeOkMo7hymi2aw" general="_8QeIAOs6EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OJW1IOs7EeOa76z6hPAxMQ" name="Figures">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1gTgoPFtEeOkMo7hymi2aw" name="Draw"/>
+  </packagedElement>
+</uml:Model>
