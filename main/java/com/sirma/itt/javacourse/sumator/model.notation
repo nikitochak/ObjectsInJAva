@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_uiD4QOsvEeOpNu0rQmnM2w" type="PapyrusUMLClassDiagram" name="2.2" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_wdVSIOsvEeOpNu0rQmnM2w" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wdV5MesvEeOpNu0rQmnM2w" type="5029"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wdV5MusvEeOpNu0rQmnM2w" type="7017">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wdV5M-svEeOpNu0rQmnM2w"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wdV5NOsvEeOpNu0rQmnM2w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wdV5NesvEeOpNu0rQmnM2w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wdV5NusvEeOpNu0rQmnM2w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wdV5N-svEeOpNu0rQmnM2w" type="7018">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wdV5OOsvEeOpNu0rQmnM2w"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wdV5OesvEeOpNu0rQmnM2w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wdV5OusvEeOpNu0rQmnM2w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wdV5O-svEeOpNu0rQmnM2w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wdWgQOsvEeOpNu0rQmnM2w" type="7019">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wdWgQesvEeOpNu0rQmnM2w"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wdWgQusvEeOpNu0rQmnM2w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wdWgQ-svEeOpNu0rQmnM2w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wdWgROsvEeOpNu0rQmnM2w"/>
+    </children>
+    <element xmi:type="uml:Class" href="model.uml#_wdTc8OsvEeOpNu0rQmnM2w"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wdV5MOsvEeOpNu0rQmnM2w" x="400" y="138"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_uiD4QesvEeOpNu0rQmnM2w"/>
+  <element xmi:type="uml:Model" href="model.uml#_uiCqIOsvEeOpNu0rQmnM2w"/>
+</notation:Diagram>

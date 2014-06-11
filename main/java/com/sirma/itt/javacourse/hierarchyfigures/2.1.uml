@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_EVs0oOs5EeOa76z6hPAxMQ" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_QoteYOs5EeOa76z6hPAxMQ" name="Figures">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ag4bAOtAEeOa76z6hPAxMQ" name="draw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Sfy70Os5EeOa76z6hPAxMQ" name="Point">
+    <generalization xmi:type="uml:Generalization" xmi:id="_6t0j0PFsEeOkMo7hymi2aw" general="_QoteYOs5EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UGS_kOs5EeOa76z6hPAxMQ" name="Arc">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8RjncPFsEeOkMo7hymi2aw" general="_Sfy70Os5EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WcNuEOs5EeOa76z6hPAxMQ" name="Cyrcle">
+    <generalization xmi:type="uml:Generalization" xmi:id="_-icsAPFsEeOkMo7hymi2aw" general="_UGS_kOs5EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XYcs0Os5EeOa76z6hPAxMQ" name="Elipse ">
+    <generalization xmi:type="uml:Generalization" xmi:id="_9ejmEPFsEeOkMo7hymi2aw" general="_UGS_kOs5EeOa76z6hPAxMQ"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_9R59kOs_EeOa76z6hPAxMQ" name="Enumeration1"/>
+  </packagedElement>
+</uml:Model>

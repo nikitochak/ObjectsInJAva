@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_e_-f4OsuEeOpNu0rQmnM2w" name="model">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_PbqA8OsvEeOpNu0rQmnM2w">
+    <body>asdf ashfjk asdlfh ahsd</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lLME8OsuEeOpNu0rQmnM2w" name="asdf">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UrOdIOsvEeOpNu0rQmnM2w" general="_RAJ5kOsvEeOpNu0rQmnM2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RAJ5kOsvEeOpNu0rQmnM2w" name="asdf2"/>
+</uml:Model>
