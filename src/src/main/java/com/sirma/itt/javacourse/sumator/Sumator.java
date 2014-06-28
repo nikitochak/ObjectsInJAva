@@ -63,10 +63,10 @@ public class Sumator {
 	 *            the second big integer
 	 * @return the sum of a and b
 	 */
-	public static BigInteger Sumator(BigInteger a, BigInteger b) {
+	public static String Sumator(BigInteger a, BigInteger b) {
 		sumint=sumint.add(a);
 		sumint=sumint.add(b);
-		return sumint;
+		return sumint.toString();
 	}
 
 	/**

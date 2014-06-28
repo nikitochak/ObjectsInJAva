@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="src.tests.BinaryTreeTest">
+      <class name="src.test.java.com.sirma.itt.javacourse.sumator.SumatorTest">
         <methods>
-          <include name="TestGetMin"/>
+          <include name="TestSumatorWithBigIntegers"/>
         </methods>
-      </class> <!-- src.tests.BinaryTreeTest -->
+      </class> <!-- src.test.java.com.sirma.itt.javacourse.sumator.SumatorTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

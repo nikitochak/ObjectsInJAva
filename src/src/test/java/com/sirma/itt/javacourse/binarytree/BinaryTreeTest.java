@@ -1,6 +1,8 @@
 package src.test.java.com.sirma.itt.javacourse.binarytree;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import src.main.java.com.sirma.itt.javacourse.binarytree.*;
 
 /**
@@ -17,7 +19,7 @@ public class BinaryTreeTest {
 	 * Tests the insert of a new node to the tree.
 	 */
 	@Test
-	public void TestInsert() {
+	public void testInsertWithDifferentNumbers() {
 
 		tree.insert(45);
 		BinaryTree.visit(tree.getRoot());
@@ -31,7 +33,9 @@ public class BinaryTreeTest {
 		tree.insert(23);
 		BinaryTree.visit(tree.getRoot());
 
-		System.out.println("\n now the min :" + tree.findMin(tree.getRoot()));
+		if(tree.findMin(tree.getRoot())!=12){
+			Assert.fail("Nope");
+		}
 
 	}
 
