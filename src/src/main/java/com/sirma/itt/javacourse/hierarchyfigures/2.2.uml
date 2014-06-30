@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_mQF2gOs5EeOa76z6hPAxMQ" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_rNqjwOs5EeOa76z6hPAxMQ" name="Random Quadrangle">
+    <generalization xmi:id="_nAlHsPFtEeOkMo7hymi2aw" general="_KUPkwOs7EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4A-eMOs5EeOa76z6hPAxMQ" name="Rectangle">
+    <generalization xmi:id="_nhTPIPFtEeOkMo7hymi2aw" general="_rNqjwOs5EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HqUKkOs6EeOa76z6hPAxMQ" name="Parallelogram">
+    <generalization xmi:id="_pCq7QPFtEeOkMo7hymi2aw" general="_rNqjwOs5EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UbIKoOs6EeOa76z6hPAxMQ" name="Squere">
+    <generalization xmi:id="_sRRlQPFtEeOkMo7hymi2aw" general="_4A-eMOs5EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eVsWUOs6EeOa76z6hPAxMQ" name="Rhombus">
+    <generalization xmi:id="_qHkt0PFtEeOkMo7hymi2aw" general="_HqUKkOs6EeOa76z6hPAxMQ"/>
+    <generalization xmi:id="_rjzbQPFtEeOkMo7hymi2aw" general="_UbIKoOs6EeOa76z6hPAxMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KUPkwOs7EeOa76z6hPAxMQ" name="Figures"/>
+</uml:Model>

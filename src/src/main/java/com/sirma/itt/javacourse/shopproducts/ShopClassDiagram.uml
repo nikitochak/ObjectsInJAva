@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_eqI_gOs-EeOa76z6hPAxMQ" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_TCHjIPL3EeOCd4FYvdlvrg" name="Person">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6NlnoPL4EeOCd4FYvdlvrg" name="name" visibility="protected">
+      <type xmi:type="uml:Stereotype" href="synthetic:/org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty..umlproperty#xtextLink_::0.3::1::/1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Q5sEPL4EeOCd4FYvdlvrg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Q6TIPL4EeOCd4FYvdlvrg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_-Q66MPL4EeOCd4FYvdlvrg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JRFSoPMSEeO_Y4oQeYRRSg" name="YearsExp" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JmL_8PMSEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JmMnAPMSEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_JmNOEPMSEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7FoWAPMQEeO_Y4oQeYRRSg" clientDependency="_jFceAPMREeO_Y4oQeYRRSg _qqiAEPMREeO_Y4oQeYRRSg" name="Shop"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_avrs8PMREeO_Y4oQeYRRSg" name="Product">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2aqJwPMSEeO_Y4oQeYRRSg" name="name" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3IITwPMSEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3II60PMSEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_3IKwAPMSEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ag8dQPMTEeO_Y4oQeYRRSg" name="Cost" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A7iukPMTEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A7jVoPMTEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_A7j8sPMTEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_jFceAPMREeO_Y4oQeYRRSg" name="" client="_7FoWAPMQEeO_Y4oQeYRRSg" supplier="_TCHjIPL3EeOCd4FYvdlvrg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_qqiAEPMREeO_Y4oQeYRRSg" name="" client="_7FoWAPMQEeO_Y4oQeYRRSg" supplier="_avrs8PMREeO_Y4oQeYRRSg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_I0oKsPMTEeO_Y4oQeYRRSg" clientDependency="_jxbS4PMUEeO_Y4oQeYRRSg" name="Manager ">
+    <generalization xmi:type="uml:Generalization" xmi:id="_w6yyUPMTEeO_Y4oQeYRRSg" general="_TCHjIPL3EeOCd4FYvdlvrg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MI27kPMTEeO_Y4oQeYRRSg" name="WorkDay" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EShort"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MZib4PMTEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MZjC8PMTEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MZjqAPMTEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_jxbS4PMUEeO_Y4oQeYRRSg" name="" client="_I0oKsPMTEeO_Y4oQeYRRSg" supplier="_LbPyMPMUEeO_Y4oQeYRRSg" contract="_LbPyMPMUEeO_Y4oQeYRRSg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fhp8QPMTEeO_Y4oQeYRRSg" clientDependency="_icncEPMUEeO_Y4oQeYRRSg" name="Seller ">
+    <generalization xmi:type="uml:Generalization" xmi:id="_yhuT4PMTEeO_Y4oQeYRRSg" general="_TCHjIPL3EeOCd4FYvdlvrg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_n3j3QPMTEeO_Y4oQeYRRSg" name="WorkDay" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EShort"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oQPdAPMTEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oQQrIPMTEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_oQR5QPMTEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_icncEPMUEeO_Y4oQeYRRSg" name="" client="_fhp8QPMTEeO_Y4oQeYRRSg" supplier="_LbPyMPMUEeO_Y4oQeYRRSg" contract="_LbPyMPMUEeO_Y4oQeYRRSg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1pqVMPMTEeO_Y4oQeYRRSg" clientDependency="_fleP0PMUEeO_Y4oQeYRRSg" name="Customer">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AUT6APMUEeO_Y4oQeYRRSg" name="Money" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BHV5cPMUEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BHWggPMUEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_BHXHkPMUEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_fleP0PMUEeO_Y4oQeYRRSg" name="" client="_1pqVMPMTEeO_Y4oQeYRRSg" supplier="_LbPyMPMUEeO_Y4oQeYRRSg" contract="_LbPyMPMUEeO_Y4oQeYRRSg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_I71UAPMVEeO_Y4oQeYRRSg" name="CanAfford" isStatic="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LbPyMPMUEeO_Y4oQeYRRSg" name="Get">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SwndQPMUEeO_Y4oQeYRRSg" name="WhatIsHeDoing"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sVCSsPMUEeO_Y4oQeYRRSg" name="Cheap">
+    <generalization xmi:type="uml:Generalization" xmi:id="_cAWt0PMVEeO_Y4oQeYRRSg" general="_avrs8PMREeO_Y4oQeYRRSg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vSs9sPMUEeO_Y4oQeYRRSg" name="IsAvailable" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EBoolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wgSyMPMUEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wgTZQPMUEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_wgUnYPMUEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6FZrQPMUEeO_Y4oQeYRRSg" name="Expensive">
+    <generalization xmi:type="uml:Generalization" xmi:id="_dDzH0PMVEeO_Y4oQeYRRSg" general="_avrs8PMREeO_Y4oQeYRRSg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BYuH4PMVEeO_Y4oQeYRRSg" name="IsAvailable" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B9UCsPMVEeO_Y4oQeYRRSg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B9UpwPMVEeO_Y4oQeYRRSg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_B9V34PMVEeO_Y4oQeYRRSg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>

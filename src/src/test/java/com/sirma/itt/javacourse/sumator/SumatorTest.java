@@ -1,5 +1,6 @@
 package src.test.java.com.sirma.itt.javacourse.sumator;
 
+import static org.testng.AssertJUnit.assertEquals;
 import src.main.java.com.sirma.itt.javacourse.sumator.*;
 
 import org.testng.Assert;
@@ -18,28 +19,26 @@ public class SumatorTest {
 	/**
 	 * Tests sumator with Integers.
 	 */
-	@SuppressWarnings("static-access")
+
 	@Test
 	public void testSumatorWithIntegers() {
 
 		Main.ia = 34;
 		Main.ib = 432;
-		if (sumator.Sumator(sumint.ia, sumint.ib) != (34 + 432)) {
-			Assert.fail("Nope");
-		}
+		assertEquals(Sumator.sumator(Main.ia, Main.ib), (34 + 432));
 
 	}
 
 	/**
 	 * Tests sumator with big integers.
 	 */
-	@SuppressWarnings("static-access")
+
 	@Test
 	public void TestSumatorWithBigIntegers() {
 
-		sumint.sforbi = "4213532";
+		Main.sforbi = "4213532";
 
-		if (sumator.Sumator(sumint.bia, sumint.bib) != "8427064") {
+		if (Sumator.sumator(Main.bia, Main.bib) != "8427064") {
 			Assert.fail("Nope");
 		}
 

@@ -31,12 +31,12 @@ public class Main{
 	 */
 	public static void main(String[] args){
 		
-		System.out.println(Sumator.Sumator(ia, ib));
-		System.out.println(Sumator.Sumator(fa, fb));
-		System.out.println(Sumator.Sumator(sa, sb));
+		System.out.println(Sumator.sumator(ia, ib));
+		System.out.println(Sumator.sumator(fa, fb));
+		System.out.println(Sumator.sumator(sa, sb));
 		//bia=new BigInteger("213415324523452");
-		System.out.println(Sumator.Sumator(bia, bib));
-		System.out.println(Sumator.Sumator(bdb, bda));
+		System.out.println(Sumator.sumator(bia, bib));
+		System.out.println(Sumator.sumator(bdb, bda));
 	}
 	
 }
